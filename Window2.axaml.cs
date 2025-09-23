@@ -1,20 +1,37 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using AVi.Service;
+using System.Threading.Tasks;
 
 namespace AVi;
 
 public partial class Window2 : Window
 {
+    private UserService _userService;
     public Window2()
     {
         InitializeComponent();
+        _userService = new UserService();  
     }
 
-    private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    private async void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        new MainWindow().Show();
-        Close();
+        var phone = PhoneTextBox.Text;
+        var password =  PasswordTextBox.Text;
+        var passwordRe =  PasswordReTextBox.Text;
+
+        if (phone == null || password == null || passwordRe == null || passwordRe != password)
+        {
+            return;
+        }
+        var result = await _userService.RegisterUser(phone, password);
+
+        if (result)
+        {
+            new MainWindow().Show();
+            Close();
+        }
     }
 
     private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)

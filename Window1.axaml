@@ -30,6 +30,7 @@
 						Text="Телефон"
 						/>
 					<TextBox
+						Name="PhoneTextBox"
 						Margin="0 4 0 0"
 						Watermark="+7(999)-99-99"
 						/>
@@ -37,6 +38,7 @@
 						Text="Пароль"
 						Margin="0 15 0 0"/>
 					<TextBox
+						Name="PasswordTextBox"
 						Margin="0 4 0 0"
 						Watermark="*******"
 						/>
@@ -46,8 +48,7 @@
 						Background="MidnightBlue"
 						Margin="0 25 0 0"
 						HorizontalContentAlignment="Center"
-						Click="Button_Click_1"
-						>
+						Click="Button_Click_1">
 						<TextBlock
 							Text="Войти"
 							FontSize="13"

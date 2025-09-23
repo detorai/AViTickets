@@ -13,6 +13,7 @@
           "Avalonia.Diagnostics": "11.3.0",
           "Avalonia.Fonts.Inter": "11.3.0",
           "Avalonia.Themes.Fluent": "11.3.0",
+          "BCrypt.Net-Next": "4.0.3",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.14.0",
@@ -253,6 +254,14 @@
           "lib/net8.0/Avalonia.X11.dll": {
             "assemblyVersion": "11.3.0.0",
             "fileVersion": "11.3.0.0"
+          }
+        }
+      },
+      "BCrypt.Net-Next/4.0.3": {
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
           }
         }
       },
@@ -1288,6 +1297,13 @@
       "sha512": "sha512-BFkNmxW0pyqrg7q62tAEv7ZCfkR4k2bz39B3umU2VLRrYpsH/b2DocXeqgeYZYJbHikSPAXLkY34IHLZtdkU1w==",
       "path": "avalonia.x11/11.3.0",
       "hashPath": "avalonia.x11.11.3.0.nupkg.sha512"
+    },
+    "BCrypt.Net-Next/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "path": "bcrypt.net-next/4.0.3",
+      "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
     "HarfBuzzSharp/7.3.0.3": {
       "type": "package",

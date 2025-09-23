@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4JqH9TI3UT0=",
+  "dgSpecHash": "44egLZu3fC0=",
   "success": true,
   "projectFilePath": "C:\\Users\\keyn2\\source\\repos\\AVi\\AVi.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\keyn2\\.nuget\\packages\\avalonia.themes.simple\\11.3.0\\avalonia.themes.simple.11.3.0.nupkg.sha512",
     "C:\\Users\\keyn2\\.nuget\\packages\\avalonia.win32\\11.3.0\\avalonia.win32.11.3.0.nupkg.sha512",
     "C:\\Users\\keyn2\\.nuget\\packages\\avalonia.x11\\11.3.0\\avalonia.x11.11.3.0.nupkg.sha512",
+    "C:\\Users\\keyn2\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\keyn2\\.nuget\\packages\\harfbuzzsharp\\7.3.0.3\\harfbuzzsharp.7.3.0.3.nupkg.sha512",
     "C:\\Users\\keyn2\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.3\\harfbuzzsharp.nativeassets.linux.7.3.0.3.nupkg.sha512",
     "C:\\Users\\keyn2\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0.3\\harfbuzzsharp.nativeassets.macos.7.3.0.3.nupkg.sha512",
