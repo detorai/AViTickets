@@ -29,7 +29,7 @@ public partial class Window2 : Window
 
         if (result)
         {
-            new MainWindow().Show();
+            new Window7().Show();
             Close();
         }
     }

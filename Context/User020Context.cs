@@ -116,7 +116,9 @@ public partial class User020Context : DbContext
 
             entity.ToTable("bookers");
 
-            entity.Property(e => e.BookerId).HasColumnName("booker_id");
+            entity.Property(e => e.BookerId)
+                .ValueGeneratedNever()
+                .HasColumnName("booker_id");
             entity.Property(e => e.TicketId).HasColumnName("ticket_id");
             entity.Property(e => e.UserId).HasColumnName("user_id");
 
@@ -233,6 +235,7 @@ public partial class User020Context : DbContext
                 .HasDefaultValue(false)
                 .HasColumnName("booker_state");
             entity.Property(e => e.ClassId).HasColumnName("class_id");
+            entity.Property(e => e.Cost).HasColumnName("cost");
             entity.Property(e => e.DepAirportId).HasColumnName("dep_airport_id");
             entity.Property(e => e.Seat)
                 .HasColumnType("character varying")
@@ -273,7 +276,6 @@ public partial class User020Context : DbContext
 
             entity.HasOne(d => d.Tarif).WithMany(p => p.Tickets)
                 .HasForeignKey(d => d.TarifId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_tarif");
         });
 
@@ -307,7 +309,6 @@ public partial class User020Context : DbContext
 
             entity.HasOne(d => d.Bookers1).WithMany(p => p.Users)
                 .HasForeignKey(d => d.Bookers)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_bookers");
 
             entity.HasOne(d => d.UserRoleNavigation).WithMany(p => p.Users)

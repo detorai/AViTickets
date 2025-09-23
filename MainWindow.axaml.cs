@@ -11,7 +11,7 @@ namespace AVi
 
         private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            Close();
+            new Window6().ShowDialog(this);
         }
 
         private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)

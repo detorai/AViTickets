@@ -3,9 +3,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-		x:CompileBindings="False"
-        x:Class="AVi.MainWindow"
-        Title="AVi"
+        x:Class="AVi.Window7"
+        Title="MainAfterSign"
 		WindowStartupLocation="CenterScreen">
 	<Border
 		Background="MidnightBlue"
@@ -29,7 +28,7 @@
 					Background="White"
 					VerticalAlignment="Top"
 					HorizontalAlignment="Right"
-					Click="Button_Click_1"
+					Click ="Button_Click"
 					>
 					<TextBlock
 						Text="Профиль"
@@ -54,7 +53,6 @@
 					ShowGridLines="False"
 					>
 					<TextBox
-						Name="FromTextBox"
 						CornerRadius="15 3 3 15"
 						Background="White"
 						Watermark="Откуда"
@@ -66,7 +64,6 @@
 						Height="40"
 						/>
 					<TextBox
-						Name="OutTextBox"
 						Margin="0.5 0 0 0"
 						Background="White"
 						Watermark="Куда"
@@ -78,7 +75,6 @@
 						Height="40"
 						/>
 					<TextBox
-						Name="ArTimeTextBox"
 						Margin="0.5 0 0 0"
 						Background="White"
 						Watermark="Когда"
@@ -90,7 +86,6 @@
 						Height="40"
 						/>
 					<TextBox
-						Name="DevTimeTextBox"
 						Margin="0.5 0 0 0"
 						Background="White"
 						Watermark="Обратно"
@@ -112,14 +107,14 @@
 						VerticalContentAlignment="Center"
 						FontSize="12"
 						Grid.Column="4"
-						Click="Button_Click"
+						Click ="Button_Click_1"
 						>
-					<TextBlock
-						Text="Эконом"
-						Foreground="Black"
-						FontWeight="DemiBold"
-						FontSize="12"/>	
-				</Button>
+						<TextBlock
+							Text="Эконом"
+							Foreground="Black"
+							FontWeight="DemiBold"
+							FontSize="12"/>
+					</Button>
 					<Button
 						CornerRadius="15 15"
 						Width="150"

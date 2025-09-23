@@ -10,4 +10,10 @@ public partial class Window6 : Window
     {
         InitializeComponent();
     }
+
+    private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        new MainWindow().Show();
+        Close();
+    }
 }

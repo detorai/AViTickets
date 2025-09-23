@@ -7,7 +7,7 @@ public partial class Ticket
 {
     public int TicketId { get; set; }
 
-    public int TarifId { get; set; }
+    public int? TarifId { get; set; }
 
     public int ClassId { get; set; }
 
@@ -29,6 +29,8 @@ public partial class Ticket
 
     public string Seat { get; set; } = null!;
 
+    public int Cost { get; set; }
+
     public virtual Aircraft Aircraft { get; set; } = null!;
 
     public virtual Airline Airlines { get; set; } = null!;
@@ -41,5 +43,5 @@ public partial class Ticket
 
     public virtual Airport DepAirport { get; set; } = null!;
 
-    public virtual Tarif Tarif { get; set; } = null!;
+    public virtual Tarif? Tarif { get; set; }
 }

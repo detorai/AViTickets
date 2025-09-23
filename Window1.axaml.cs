@@ -36,7 +36,7 @@ public partial class Window1 : Window
 
             if (user != null)
             {
-                new MainWindow().Show();
+                new Window7().Show();
                 Close();
             }
         }
