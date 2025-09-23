@@ -1,0 +1,143 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		x:CompileBindings="False"
+        x:Class="AVi.MainWindow"
+        Title="AVi"
+		WindowStartupLocation="CenterScreen">
+	<Border
+		Background="MidnightBlue"
+		Height="300"
+		Width="1000"
+		CornerRadius="25">
+		<StackPanel>
+			<StackPanel
+				Margin="10"
+				Orientation="Horizontal"
+				Spacing="760"
+				>
+				<TextBlock
+					Margin="4"
+					Text="AViTICKETS"
+					Foreground="White"
+					FontSize="20"
+					FontWeight="DemiBold"/>
+				<Button
+					CornerRadius="20"
+					Background="White"
+					VerticalAlignment="Top"
+					HorizontalAlignment="Right"
+					Click="Button_Click_1"
+					>
+					<TextBlock
+						Text="Профиль"
+						Foreground="Black"
+						FontWeight="DemiBold"
+						FontSize="16"/>
+				</Button>
+			</StackPanel>
+			<StackPanel Margin="10 40">
+				<TextBlock
+					Text="Все билеты - одна кнопка"
+					TextAlignment="Center"
+					Margin="0 30 0 0"
+					Foreground="White"
+					FontWeight="DemiBold"
+					FontSize="25"
+					/>
+				<Grid
+					Margin="0 20"
+					RowDefinitions="50"
+					ColumnDefinitions="* * * * * *"
+					ShowGridLines="False"
+					>
+					<TextBox
+						CornerRadius="15 3 3 15"
+						Background="White"
+						Watermark="Откуда"
+						HorizontalContentAlignment="Left"
+						VerticalContentAlignment="Center"
+						FontSize="12"
+						BorderBrush="Black"
+						Grid.Column="0"
+						Height="40"
+						/>
+					<TextBox
+						Margin="0.5 0 0 0"
+						Background="White"
+						Watermark="Куда"
+						HorizontalContentAlignment="Left"
+						VerticalContentAlignment="Center"
+						FontSize="12"
+						BorderBrush="Black"
+						Grid.Column="1"
+						Height="40"
+						/>
+					<TextBox
+						Margin="0.5 0 0 0"
+						Background="White"
+						Watermark="Когда"
+						HorizontalContentAlignment="Left"
+						VerticalContentAlignment="Center"
+						FontSize="12"
+						BorderBrush="Black"
+						Grid.Column="2"
+						Height="40"
+						/>
+					<TextBox
+						Margin="0.5 0 0 0"
+						Background="White"
+						Watermark="Обратно"
+						Height="40"
+						HorizontalContentAlignment="Left"
+						VerticalContentAlignment="Center"
+						FontSize="12"
+						BorderBrush="Black"
+						Grid.Column="3"
+						/>
+					<Button
+						Margin="1 0 0 0"
+						CornerRadius="3 15 15 3"
+						Width="160"
+						Height="40"
+						BorderBrush="Black"
+						Background="White"
+						HorizontalContentAlignment="Left"
+						VerticalContentAlignment="Center"
+						FontSize="12"
+						Grid.Column="4"
+						Click="Button_Click"
+						>
+					<TextBlock
+						Text="1 человек           Эконом"
+						Foreground="Black"
+						FontWeight="DemiBold"
+						FontSize="12"/>	
+				</Button>
+					<Button
+						CornerRadius="15 15"
+						Width="150"
+						Height="40"
+						BorderBrush="Black"
+						Background="Chocolate"
+						HorizontalContentAlignment="Center"
+						VerticalContentAlignment="Center"
+						FontSize="12"
+						Grid.Column="5"
+						Margin="10 0 0 0"
+						Click="Button_Click_2"
+						>
+						<TextBlock
+							Text="Найти билеты"
+							Foreground="White"
+							FontWeight="DemiBold"
+							FontSize="12"
+							/>
+					</Button>
+				</Grid>
+			</StackPanel>
+		</StackPanel>
+	</Border>
+</Window>

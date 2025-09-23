@@ -1,0 +1,57 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AVi.Window6"
+        Title="Window6"
+		WindowStartupLocation="CenterScreen">
+	<Border Background="MidnightBlue" Width="400" Height ="400" CornerRadius="25">
+		<Border Background="White" Width="370" Height ="270" CornerRadius="25">
+			<StackPanel
+				Margin="20">
+				<TextBlock
+					Text="Количество пассажиров"
+					Foreground="Black"
+					FontWeight="DemiBold"
+					FontSize="20"
+							/>
+				<TextBlock
+					Text="Класс обслуживания"
+					Foreground="Black"
+					FontWeight="DemiBold"
+					FontSize="20"
+					Margin="0 50 0 0"
+							/>
+				<TextBlock
+					Text="Эконом"
+					Foreground="Black"
+					FontWeight="Medium"
+					FontSize="15"
+					Margin="0 15 0 0"
+							/>
+				<TextBlock
+					Text="Комфорт"
+					Foreground="Black"
+					FontWeight="Medium"
+					FontSize="15"
+					Margin="0 10 0 0"
+							/>
+				<TextBlock
+					Text="Бизнес"
+					Foreground="Black"
+					FontWeight="Medium"
+					FontSize="15"
+					Margin="0 10 0 0"
+							/>
+				<TextBlock
+					Text="Первый класс"
+					Foreground="Black"
+					FontWeight="Medium"
+					FontSize="15"
+					Margin="0 10 0 0"
+							/>
+			</StackPanel>
+		</Border>
+	</Border>
+</Window>

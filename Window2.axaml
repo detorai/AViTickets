@@ -1,0 +1,81 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		x:CompileBindings="False" 
+        x:Class="AVi.Window2"
+        Title="SignUp"
+		WindowStartupLocation="CenterScreen">
+	<Border Background="MidnightBlue" Width="600" Height ="400" CornerRadius="25">
+		<Border Background="White" Width="350" Height ="350" CornerRadius="25">
+			<StackPanel HorizontalAlignment="Center" Margin="20 30">
+				<TextBlock
+					Text="Регистрация"
+					FontSize="23"
+					FontWeight="Bold"
+					TextAlignment="Center"/>
+
+				<StackPanel
+					Margin="0 10 0 0">
+					<TextBlock
+						Text="Телефон"
+						FontSize="13"
+						/>
+					<TextBox
+						Margin="0 4 0 0"
+						Watermark="+7(999)-99-99"
+						/>
+					<TextBlock
+						Text="Пароль"
+						FontSize="13"
+						Margin="0 5 0 0"/>
+					<TextBox
+						Margin="0 4 0 0"
+						Watermark="*******"
+						/>
+					<TextBlock
+						Text="Повторите пароль"
+						FontSize="13"
+						Margin="0 5 0 0"/>
+					<TextBox
+						Margin="0 4 0 0"
+						Watermark="*******"
+						/>
+					<Button
+						Width="245"
+						Height="30"
+						Background="MidnightBlue"
+						Margin="0 25 0 0"
+						HorizontalContentAlignment="Center"
+						Click="Button_Click"
+						>
+						<TextBlock
+							Text="Зарегистрироваться"
+							FontSize="13"
+							FontWeight="Light"
+							Foreground="White"
+							/>
+					</Button>
+					<TextBlock
+						Margin="0 5 0 0"
+						Text="Если у вас есть аккаунт, то вы можете "
+						FontSize="10"
+						TextAlignment="Center"
+						FontWeight="Medium"/>
+					<Button
+						HorizontalAlignment="Center"
+						Background="White"
+						Click="Button_Click_1"
+						>
+						<TextBlock
+							Text="войти"
+							FontSize="15"
+							FontWeight="SemiBold"
+							/>
+					</Button>
+				</StackPanel>
+			</StackPanel>
+		</Border>
+	</Border>
+</Window>

@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\keyn2\\source\\repos\\AVi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window1.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window1.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window2.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window2.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window2.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window2.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Helper.cs",
+              "RelativeDocumentMoniker": "Helper.cs",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Helper.cs",
+              "RelativeToolTip": "Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:15:58.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window1.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window1.axaml.cs",
+              "RelativeDocumentMoniker": "Window1.axaml.cs",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window1.axaml.cs",
+              "RelativeToolTip": "Window1.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:07:29.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "MainWindow.axaml",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\MainWindow.axaml",
+              "RelativeToolTip": "MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T06:01:22.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Window2.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window2.axaml.cs",
+              "RelativeDocumentMoniker": "Window2.axaml.cs",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window2.axaml.cs",
+              "RelativeToolTip": "Window2.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T05:55:08.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window2.axaml",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window2.axaml",
+              "RelativeDocumentMoniker": "Window2.axaml",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window2.axaml",
+              "RelativeToolTip": "Window2.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T05:43:04.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window1.axaml",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window1.axaml",
+              "RelativeDocumentMoniker": "Window1.axaml",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window1.axaml",
+              "RelativeToolTip": "Window1.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T05:43:03.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
