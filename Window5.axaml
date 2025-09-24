@@ -17,6 +17,7 @@
 					Height="30"
 					CornerRadius="10 10 0 0"
 					Background="MidnightBlue"
+					Click="Button_Click"
 					>
 					<TextBlock
 						Text="Мои бронирования"
@@ -28,19 +29,9 @@
 				<Button
 					Width="160"
 					Height="30"
-					Background="MidnightBlue"
+					CornerRadius="0 0 10 10"
+					Click="Button_Click_1"
 					>
-					<TextBlock
-						Text="Мои документы"
-						Foreground="White"
-						FontWeight="DemiBold"
-						HorizontalAlignment="Center"
-						/>
-				</Button>
-				<Button
-					Width="160"
-					Height="30"
-					CornerRadius="0 0 10 10">
 					<TextBlock
 						Text="Выйти"
 						Foreground="Black"

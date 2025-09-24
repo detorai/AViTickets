@@ -53,6 +53,7 @@
 					ShowGridLines="False"
 					>
 					<TextBox
+						Name="FromTextBox"
 						CornerRadius="15 3 3 15"
 						Background="White"
 						Watermark="Откуда"
@@ -64,6 +65,7 @@
 						Height="40"
 						/>
 					<TextBox
+						Name="OutTextBox"
 						Margin="0.5 0 0 0"
 						Background="White"
 						Watermark="Куда"
@@ -75,6 +77,7 @@
 						Height="40"
 						/>
 					<TextBox
+						Name="DevTimeTextBox"
 						Margin="0.5 0 0 0"
 						Background="White"
 						Watermark="Когда"
@@ -86,6 +89,7 @@
 						Height="40"
 						/>
 					<TextBox
+						Name="ArTimeTextBox"
 						Margin="0.5 0 0 0"
 						Background="White"
 						Watermark="Обратно"

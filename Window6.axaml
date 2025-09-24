@@ -7,58 +7,77 @@
         Title="Plane Class"
 		WindowStartupLocation="CenterScreen">
 	<Border Background="MidnightBlue" Width="400" Height ="400" CornerRadius="25">
-		<Border Background="White" Width="370" Height ="230" CornerRadius="25">
+		<Border Background="White" Width="280" Height ="230" CornerRadius="25">
 			<StackPanel
-				Margin="20">
+				Margin="20"
+				HorizontalAlignment="Center"
+				>
 				<TextBlock
 					Text="Класс обслуживания"
 					Foreground="Black"
+					
 					FontWeight="DemiBold"
 					FontSize="20"
 							/>
-				<TextBlock
-					Text="Эконом"
-					Foreground="Black"
-					FontWeight="Medium"
-					FontSize="15"
-					Margin="0 15 0 0"
-							/>
-				<TextBlock
-					Text="Комфорт"
-					Foreground="Black"
-					FontWeight="Medium"
-					FontSize="15"
-					Margin="0 10 0 0"
-							/>
-				<TextBlock
-					Text="Бизнес"
-					Foreground="Black"
-					FontWeight="Medium"
-					FontSize="15"
-					Margin="0 10 0 0"
-							/>
-				<TextBlock
-					Text="Первый класс"
-					Foreground="Black"
-					FontWeight="Medium"
-					FontSize="15"
-					Margin="0 10 0 0"
-							/>
 				<Button
-					Height="40"
-					Width="330"
-					Margin="0 10"
-					CornerRadius="20"
 					Background="MidnightBlue"
-					Click ="Button_Click"
+					HorizontalAlignment="Center"
+					Margin="0 10 0 0"
+					Click="Button_Click"
 					>
 					<TextBlock
-						Text="Выбрать"
-						Foreground="White"
+						Text="Эконом"
 						VerticalAlignment="Center"
 						HorizontalAlignment="Center"
-						FontWeight="DemiBold"
-						/>
+						Foreground="White"
+						FontWeight="Medium"
+						FontSize="15"
+					/> 
+				</Button>
+				<Button
+					Background="MidnightBlue"
+					HorizontalAlignment="Center"
+					Margin="0 10 0 0"
+					Click="Button_Click"
+					>
+					<TextBlock
+						Text="Комфорт"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Center"
+						Foreground="White"
+						FontWeight="Medium"
+						FontSize="15"
+					/>
+				</Button>
+				<Button
+					Background="MidnightBlue"
+					HorizontalAlignment="Center"
+					Margin="0 10 0 0"
+					Click="Button_Click"
+					>
+					<TextBlock
+						Text="Бизнес"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Center"
+						Foreground="White"
+						FontWeight="Medium"
+						FontSize="15"
+					/>
+				</Button>
+				<Button
+					Background="MidnightBlue"
+					HorizontalAlignment="Center"
+					Margin="0 10 0 0"
+					Click="Button_Click"
+					>
+					<TextBlock
+						Text="Первый класс"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Center"
+						Foreground="White"
+						FontWeight="Medium"
+						FontSize="15"
+					/>
 				</Button>
 			</StackPanel>
 		</Border>

@@ -13,7 +13,6 @@ public partial class Window3 : Window
 
     private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        new Window4().Show();   
-        Close();
+        
     }
 }

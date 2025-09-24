@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AVi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e10f3ff65d489a1982856155c71adfb1c4342fb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dbf611a11870458356f536ccbb77d8b11af68ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("AVi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AVi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

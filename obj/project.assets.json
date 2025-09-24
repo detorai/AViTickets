@@ -4685,23 +4685,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\demo\\.nuget\\packages\\": {},
+    "C:\\Users\\keyn2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\demo\\Source\\Repos\\AViTickets\\AVi.csproj",
+      "projectUniqueName": "C:\\Users\\keyn2\\source\\repos\\AVi\\AVi.csproj",
       "projectName": "AVi",
-      "projectPath": "C:\\Users\\demo\\Source\\Repos\\AViTickets\\AVi.csproj",
-      "packagesPath": "C:\\Users\\demo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\demo\\Source\\Repos\\AViTickets\\obj\\",
+      "projectPath": "C:\\Users\\keyn2\\source\\repos\\AVi\\AVi.csproj",
+      "packagesPath": "C:\\Users\\keyn2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\keyn2\\source\\repos\\AVi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\demo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\keyn2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4811,7 +4811,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

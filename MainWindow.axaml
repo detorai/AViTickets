@@ -115,6 +115,7 @@
 						Click="Button_Click"
 						>
 					<TextBlock
+						Name="ClassSelector"
 						Text="Эконом"
 						Foreground="Black"
 						FontWeight="DemiBold"
