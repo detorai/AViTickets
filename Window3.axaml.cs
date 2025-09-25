@@ -12,25 +12,28 @@ public partial class Window3 : Window
         InitializeComponent();
     }
 
-    private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         SelectedTariffId = 1;
         Close(SelectedTariffId);
-    }
-
-    private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        SelectedTariffId = 2;
-        Close(SelectedTariffId);
+        
     }
 
     private void Button_Click_2(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        SelectedTariffId = 3;
+        SelectedTariffId = 2;
         Close(SelectedTariffId);
+        
     }
 
     private void Button_Click_3(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        SelectedTariffId = 3;
+        Close(SelectedTariffId);
+        
+    }
+
+    private void Button_Click_4(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         SelectedTariffId = 4;
         Close(SelectedTariffId);

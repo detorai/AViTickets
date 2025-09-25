@@ -2,9 +2,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:models="clr-namespace:AVi.Models"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		
         x:Class="AVi.Window4"
-        Title="Window4"
+        Title="TicketsWindow"
 		WindowStartupLocation="CenterScreen"
 		>
 	<Border
@@ -15,7 +17,7 @@
 		>
 		<StackPanel
 			Background="LightGray"
-			Height="450"
+			Height="500"
 			Width="500"
 			>
 				<StackPanel
@@ -34,9 +36,13 @@
 						/>
 					</Button>
 				</StackPanel>
-			<ItemsControl Name="TicketsItemsControl" Margin="15">
+			<ItemsControl 
+				Name="TicketsItemsControl" 
+
+				Margin="15">
 				<ItemsControl.ItemTemplate>
-					<DataTemplate>
+					<DataTemplate  
+						DataType="models:TicketDisplay">
 						<Border
 							CornerRadius="25"
 							Background="White"
@@ -44,6 +50,7 @@
 							Height="180"
 							BorderBrush="Black"
 							BorderThickness="0.6"
+							Margin="10"
 							>
 							<Grid
 								ColumnDefinitions="100 *"
@@ -91,7 +98,7 @@
 								<TextBlock
 									Grid.Column="0"
 									Grid.Row="0"
-									Text="${Binding PriceFormatted}"
+									Text="{Binding PriceFormatted}"
 									VerticalAlignment="Center"
 									HorizontalAlignment="Center"
 									FontWeight="Bold"
@@ -99,7 +106,7 @@
 								<TextBlock
 									Grid.Column="1"
 									Grid.Row="0"
-									Text="${Binding AirlineName}"
+									Text="{Binding AirlineName}"
 									VerticalAlignment="Center"
 									HorizontalAlignment="Left"
 									FontWeight="Bold"
@@ -112,18 +119,18 @@
 									VerticalAlignment="Center"
 									Margin="5">
 									<TextBlock
-										Text="${Binding DepartureTimeFormatted}"
+										Text="{Binding DepartureTimeFormatted}"
 										Foreground="Black"
 										FontWeight="DemiBold"
 										FontSize="18"
 										/>
 									<TextBlock
-										Text="${Binding DepartureCity}"
+										Text="{Binding DepartureCity}"
 										Foreground="Black"
 										FontSize="12"
 										/>
 									<TextBlock
-										Text="${Binding DepartureDateFormatted}"
+										Text="{Binding DepartureDateFormatted}"
 										Foreground="Black"
 										FontSize="12"
 											/>
@@ -135,20 +142,20 @@
 									VerticalAlignment="Center"
 									Margin="10 4">
 									<TextBlock
-										Text="${Binding ArrivalTimeFormatted}"
+										Text="{Binding ArrivalTimeFormatted}"
 										Foreground="Black"
 										FontWeight="DemiBold"
 										FontSize="18"
 										HorizontalAlignment="Right"
 										/>
 									<TextBlock
-										Text="${Binding ArrivalCity}"
+										Text="{Binding ArrivalCity}"
 										Foreground="Black"
 										FontSize="12"
 										HorizontalAlignment="Right"
 										/>
 									<TextBlock
-										Text="${Binding ArrivalDateFormatted}"
+										Text="{Binding ArrivalDateFormatted}"
 										Foreground="Black"
 										FontSize="12"
 										HorizontalAlignment="Right"

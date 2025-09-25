@@ -16,8 +16,19 @@ namespace AVi.Service
                 .Select(a => a.CityId)
                 .FirstOrDefault();
         }
+        public int GetClassId(string className)
+        {
+            return Hepler.Database.PlaneClasses
+                .Where(a => a.ClassName == className)
+                .Select(a => a.ClassId)
+                .FirstOrDefault();
+        }
         public async Task<List<TicketDisplay>> SearchTickets(SearchParametrs parametrs)
         {
+
+            var departureAirportId = GetAirportCityId(parametrs.FromCity);
+            var arrivalAirportId = GetAirportCityId(parametrs.ToCity);
+            var classId = GetClassId(parametrs.FlightClass);
 
             var departureAirport = await Hepler.Database.Airports
             .FirstOrDefaultAsync(a => a.AirportId == GetAirportCityId(parametrs.FromCity));
@@ -31,12 +42,11 @@ namespace AVi.Service
                     .Include(t => t.Airlines)
                     .Include(t => t.Class)
                     .Include(t => t.Tarif)
-                    .Where(t =>
-                        t.DepAirport.AirportCity == GetAirportCityId(parametrs.FromCity) &&
-                        t.ArAirport.AirportCity == GetAirportCityId(parametrs.ToCity) &&
-                        t.TimeOut.Date == parametrs.DepartureDate.Date &&
-                        t.Class.ClassName == parametrs.FlightClass &&
-                        t.BookerState != true)
+                    .Where(t => t.DepAirportId == departureAirportId )
+                    .Where(t => t.ArAirportId == arrivalAirportId )
+                    .Where(t => t.ClassId == classId )
+                    .Where(t => t.TimeOut.Date == parametrs.DepartureDate.Date )
+                    .Where(t => t.BookerState == false)
                     .Select(t => new TicketDisplay
                     {
                         TicketId = t.TicketId,

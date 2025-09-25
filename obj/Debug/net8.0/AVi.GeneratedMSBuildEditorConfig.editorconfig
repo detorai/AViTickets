@@ -23,32 +23,32 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AVi
-build_property.ProjectDir = C:\Users\keyn2\source\repos\AVi\
+build_property.ProjectDir = C:\Users\demo\Source\Repos\AViTickets\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/keyn2/source/repos/AVi/App.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/keyn2/source/repos/AVi/MainWindow.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/keyn2/source/repos/AVi/Window1.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/Window1.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/keyn2/source/repos/AVi/Window2.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/Window2.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/keyn2/source/repos/AVi/Window3.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/Window3.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/keyn2/source/repos/AVi/Window4.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/Window4.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/keyn2/source/repos/AVi/Window5.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/Window5.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/keyn2/source/repos/AVi/Window6.axaml]
+[C:/Users/demo/Source/Repos/AViTickets/Window6.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

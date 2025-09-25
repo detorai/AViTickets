@@ -43,30 +43,20 @@ namespace AVi
         private void Button_Click_2(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
 
         {
-            if (FromTextBox.Text == null || OutTextBox.Text == null)
+            if (string.IsNullOrEmpty(FromTextBox.Text ) || string.IsNullOrEmpty( OutTextBox.Text))
             {
                 return;
-            }
-
+            }  
             var departureAirportId = _ticketService.GetAirportCityId(FromTextBox.Text);
             var arrivalAirportId = _ticketService.GetAirportCityId(OutTextBox.Text);
-            if (!DateTime.TryParse(DevTimeTextBox.Text, out var departureDate))
-            {
-                return;
-            }
-
-            if (!DateTime.TryParse(ArTimeTextBox.Text, out var returnDate))
-            {
-                return;
-            }
-            var searchParams = new SearchParametrs
-            {
-                FromCity = FromTextBox.Text,
-                ToCity = OutTextBox.Text,
-                DepartureDate = departureDate ,
-                ReturnDate = returnDate,
-                FlightClass = ClassSelector.Text
-            };
+           
+             var searchParams = new SearchParametrs
+                {
+                 FromCity = FromTextBox.Text,
+                 ToCity = OutTextBox.Text,
+                 DepartureDate = DateTime.Today,
+                 FlightClass = ClassSelector.Text
+                };   
             var resultsWindows = new Window4(searchParams);
             resultsWindows.Show();
             Close();

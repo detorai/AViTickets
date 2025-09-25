@@ -45,7 +45,6 @@ namespace AVi.Models
         public string TariffName { get; set; } = string.Empty;
         public int TariffId { get; set; }
 
-        // ВЫЧИСЛЯЕМЫЕ СВОЙСТВА ДЛЯ XAML
 
         // Форматированная цена
         public string PriceFormatted => $"{Price}₽";
@@ -60,9 +59,5 @@ namespace AVi.Models
         public string DepartureDateFull => DepartureTime.ToString("dd.MM.yyyy");
         public string ArrivalDateFull => ArrivalTime.ToString("dd.MM.yyyy");
 
-        // Длительность полета
-        public TimeSpan Duration => ArrivalTime - DepartureTime;
-        public string DurationFormatted => $"{Duration.Hours}ч {Duration.Minutes}м";
-        public string DurationShort => $"{Duration.Hours}ч";
     }
 }
