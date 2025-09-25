@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\keyn2\\source\\repos\\AVi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window3.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window3.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window1.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window1.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +15,28 @@
       "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window7.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window7.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window6.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window6.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window4.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window4.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window4.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window4.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window5.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window5.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window5.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window5.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window6.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window6.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window4.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window4.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window3.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window3.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|c:\\users\\keyn2\\source\\repos\\avi\\window3.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7712C096-AB88-4737-9D68-8C271023544E}|AVi.csproj|solutionrelative:window3.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,21 +46,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\MainWindow.axaml.cs",
-              "RelativeToolTip": "MainWindow.axaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:59:14.318Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -70,31 +57,69 @@
               "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\MainWindow.axaml",
               "RelativeToolTip": "MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T00:59:11.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Window7.axaml",
-              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window7.axaml",
-              "RelativeDocumentMoniker": "Window7.axaml",
-              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window7.axaml",
-              "RelativeToolTip": "Window7.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T00:53:21.357Z",
+              "WhenOpened": "2025-09-24T23:15:54.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Window5.axaml",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window5.axaml",
+              "RelativeDocumentMoniker": "Window5.axaml",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window5.axaml",
+              "RelativeToolTip": "Window5.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T22:50:47.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Window6.axaml",
               "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window6.axaml",
               "RelativeDocumentMoniker": "Window6.axaml",
               "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window6.axaml",
               "RelativeToolTip": "Window6.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T00:53:17.93Z",
+              "WhenOpened": "2025-09-24T22:50:43.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Window3.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window3.axaml.cs",
+              "RelativeDocumentMoniker": "Window3.axaml.cs",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window3.axaml.cs",
+              "RelativeToolTip": "Window3.axaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:12:02.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Window3.axaml",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window3.axaml",
+              "RelativeDocumentMoniker": "Window3.axaml",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window3.axaml",
+              "RelativeToolTip": "Window3.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T22:12:00.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window1.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window1.axaml.cs",
+              "RelativeDocumentMoniker": "Window1.axaml.cs",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window1.axaml.cs",
+              "RelativeToolTip": "Window1.axaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:00:54.115Z",
               "EditorCaption": ""
             },
             {
@@ -105,58 +130,34 @@
               "RelativeDocumentMoniker": "Window4.axaml.cs",
               "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window4.axaml.cs",
               "RelativeToolTip": "Window4.axaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAA4wBEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:34:20.012Z",
+              "WhenOpened": "2025-09-24T19:03:37.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\MainWindow.axaml.cs",
+              "RelativeToolTip": "MainWindow.axaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:48:25.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Window4.axaml",
               "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window4.axaml",
               "RelativeDocumentMoniker": "Window4.axaml",
               "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window4.axaml",
               "RelativeToolTip": "Window4.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T00:34:06.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Window3.axaml",
-              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window3.axaml",
-              "RelativeDocumentMoniker": "Window3.axaml",
-              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window3.axaml",
-              "RelativeToolTip": "Window3.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T00:33:34.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Window5.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window5.axaml.cs",
-              "RelativeDocumentMoniker": "Window5.axaml.cs",
-              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window5.axaml.cs",
-              "RelativeToolTip": "Window5.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:33:21.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Window5.axaml",
-              "DocumentMoniker": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window5.axaml",
-              "RelativeDocumentMoniker": "Window5.axaml",
-              "ToolTip": "C:\\Users\\keyn2\\source\\repos\\AVi\\Window5.axaml",
-              "RelativeToolTip": "Window5.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-24T00:33:10.153Z",
+              "WhenOpened": "2025-09-24T19:03:35.428Z",
               "EditorCaption": ""
             }
           ]

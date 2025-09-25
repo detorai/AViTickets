@@ -30,12 +30,24 @@ namespace AVi
 
         private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
-            new Window3().Show();
-            Close();
+            if (CurrentUser.IsLoggedIn)
+            {
+                new Window5().ShowDialog(this);
+            }
+            else
+            {
+                new Window1().ShowDialog(this);
+            }
         }
 
         private void Button_Click_2(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+
         {
+            if (FromTextBox.Text == null || OutTextBox.Text == null)
+            {
+                return;
+            }
+
             var departureAirportId = _ticketService.GetAirportCityId(FromTextBox.Text);
             var arrivalAirportId = _ticketService.GetAirportCityId(OutTextBox.Text);
             if (!DateTime.TryParse(DevTimeTextBox.Text, out var departureDate))

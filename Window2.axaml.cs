@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using AVi.Models;
 using AVi.Service;
 using System.Threading.Tasks;
 
@@ -29,7 +30,7 @@ public partial class Window2 : Window
 
         if (result)
         {
-            new Window7().Show();
+            new Window1().Show();
             Close();
         }
     }

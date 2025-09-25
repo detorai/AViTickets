@@ -18,6 +18,7 @@ namespace AVi.Service
         }
         public async Task<List<TicketDisplay>> SearchTickets(SearchParametrs parametrs)
         {
+
             var departureAirport = await Hepler.Database.Airports
             .FirstOrDefaultAsync(a => a.AirportId == GetAirportCityId(parametrs.FromCity));
             var arrivalAirport = await Hepler.Database.Airports

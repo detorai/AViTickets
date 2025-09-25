@@ -79,7 +79,7 @@
 									Width="85"
 									Height="30"
 									CornerRadius="5"
-									Click ="Button_Click_1"
+									Click ="Button_Click_2"
 									>
 									<TextBlock
 										VerticalAlignment="Center"

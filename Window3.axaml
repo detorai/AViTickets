@@ -83,6 +83,7 @@
 							Margin="0 10 0 0"
 							HorizontalContentAlignment="Center"
 							VerticalContentAlignment="Center"
+							Click="Button_Click_1"
 							>
 							<TextBlock
 							Text="Выбрать"
@@ -142,6 +143,7 @@
 							Margin="0 10 0 0"
 							HorizontalContentAlignment="Center"
 							VerticalContentAlignment="Center"
+							Click="Button_Click_2"
 							>
 							<TextBlock
 							Text="Выбрать"
@@ -201,6 +203,7 @@
 							Margin="0 10 0 0"
 							HorizontalContentAlignment="Center"
 							VerticalContentAlignment="Center"
+							Click="Button_Click_3"
 							>
 							<TextBlock
 							Text="Выбрать"

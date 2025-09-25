@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using AVi.Models;
 using AVi.Service;
 using System.Threading.Tasks;
 
@@ -17,8 +18,8 @@ public partial class Window1 : Window
 
     private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        new Window2().Show();
-        Close();
+        new Window2().ShowDialog(this);
+        
     }
 
     private async void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -36,7 +37,8 @@ public partial class Window1 : Window
 
             if (user != null)
             {
-                new Window7().Show();
+                CurrentUser.Login(user.UserId);
+                new MainWindow().Show();
                 Close();
             }
         }

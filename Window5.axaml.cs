@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using AVi.Models;
 
 namespace AVi;
 
@@ -19,6 +20,7 @@ public partial class Window5 : Window
 
     private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        CurrentUser.Logout();
         new MainWindow().Show();
         Close();
     }
